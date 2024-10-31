@@ -38,6 +38,8 @@ public class Persona {
     public void setProfesion(String profesion) {
         this.profesion = profesion;
     }
-    
+    public void hablar (){
+        System.out.println("Mi profesion es "+ this.getProfesion());
+    }
     
 }
